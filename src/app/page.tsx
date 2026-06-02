@@ -61,6 +61,8 @@ export default function HvacPage() {
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/straight-on-drone-shot-of-a-big-house-wi-1780382079502-28705898.png"
             imageAlt="Professional roofer inspecting a residential roof"
             showDimOverlay={true}
+            showBlur={false}
+            titleClassName="[text-shadow:2px_2px_4px_rgba(0,0,0,0.7)]"
           />
         </div>
 
