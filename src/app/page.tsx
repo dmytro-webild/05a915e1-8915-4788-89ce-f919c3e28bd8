@@ -35,9 +35,9 @@ export default function HvacPage() {
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Contact", id: "contact" }
+              { name: "Get a Quote", href: "/quote" }
             ]}
-            button={{ text: "Get a Quote", href: "#contact" }}
+            button={{ text: "Get a Quote", href: "/quote" }}
             animateOnLoad={false}
           />
         </div>
@@ -53,7 +53,7 @@ export default function HvacPage() {
             ]}
             avatarText="Trusted by 500+ homeowners & businesses"
             buttons={[
-              { text: "Schedule Service", href: "#contact" },
+              { text: "Schedule Service", href: "/quote" },
               { text: "Our Services", href: "#services" }
             ]}
             buttonAnimation="slide-up"
@@ -95,7 +95,7 @@ export default function HvacPage() {
           <FeatureCardOne
             title="Our Comprehensive Roofing Services"
             description="From minor repairs to complete roof overhauls, we provide lasting solutions."
-            buttons={[{ text: "Get a Quote", href: "#contact" }]}
+            buttons={[{ text: "Get a Quote", href: "/quote" }]}
             buttonAnimation="slide-up"
             features={[
               {
@@ -174,7 +174,7 @@ export default function HvacPage() {
         <div id="faq" data-section="faq">
           <FaqSplitText
             sideTitle="Common Roofing Questions"
-            buttons={[{ text: "Contact Us", href: "#contact" }]}
+            buttons={[{ text: "Contact Us", href: "/quote" }]}
             buttonAnimation="slide-up"
             faqsAnimation="slide-up"
             textPosition="left"
@@ -203,7 +203,7 @@ export default function HvacPage() {
           <ContactText
             text="Ready for a Professional Roof Inspection? Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
             buttons={[
-              { text: "Schedule Inspection", href: "#contact" },
+              { text: "Schedule Inspection", href: "/quote" },
               { text: "Call for Consultation", href: "tel:5559876543" }
             ]}
             background={{ variant: "plain" }}
@@ -229,7 +229,7 @@ export default function HvacPage() {
                   { label: "About Us", href: "#about" },
                   { label: "Testimonials", href: "#testimonials" },
                   { label: "FAQ", href: "#faq" },
-                  { label: "Contact", href: "#contact" }
+                  { label: "Get a Quote", href: "/quote" }
                 ]
               },
               {
