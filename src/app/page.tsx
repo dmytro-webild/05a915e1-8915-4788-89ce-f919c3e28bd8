@@ -132,7 +132,7 @@ export default function HvacPage() {
           description="From your initial inquiry to a perfectly finished roof."
           features={[
             {
-              title: "Schedule a Consultation",              description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=2",              imageAlt: "Scheduling a roof consultation"
+              title: "Schedule a Consultation",              description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390011478-za8j0zeo.png",              imageAlt: "Scheduling a roof consultation"
             },
             {
               title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Roofer performing a detailed roof inspection"
