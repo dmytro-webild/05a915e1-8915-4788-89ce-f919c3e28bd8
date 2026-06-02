@@ -204,7 +204,7 @@ export default function HvacPage() {
             text="Ready for a Professional Roof Inspection? Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
             buttons={[
               { text: "Schedule Inspection", href: "/quote" },
-              { text: "Call for Consultation", href: "tel:5559876543" }
+              { text: "Call for Consultation", href: "tel:2506171940" }
             ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
@@ -234,7 +234,7 @@ export default function HvacPage() {
               },
               {
                 title: "Contact",                items: [
-                  { label: "(555) 123-4567", href: "tel:5551234567" },
+                  { label: "250-617-1940", href: "tel:2506171940" },
                   { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
                   { label: "City, State" }
                 ]
