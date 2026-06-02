@@ -57,7 +57,7 @@ export default function HvacPage() {
               { text: "Our Services", href: "#services" }
             ]}
             buttonAnimation="slide-up"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780426405267-tvqoh58k.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780427176408-lfak1zw3.png"
             imageAlt="Professional roofer inspecting a residential roof"
             showDimOverlay={true}
             showBlur={false}
