@@ -151,8 +151,6 @@ export default function HvacPage() {
             ]}
             textboxLayout="default"
             useInvertedBackground={false}
-            carouselMode="auto"
-            carouselThreshold={1}
           />
         </div>
         <div id="testimonials" data-section="testimonials">
