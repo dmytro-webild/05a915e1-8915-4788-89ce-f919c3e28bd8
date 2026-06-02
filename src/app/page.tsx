@@ -160,10 +160,10 @@ export default function HvacPage() {
               title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Roofer performing a detailed roof inspection"
             },
             {
-              title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=2",              imageAlt: "Roof repair in progress"
+              title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/newly-installed-roof-with-crew-1780368744961-78901.png",              imageAlt: "Roof repair in progress"
             },
             {
-              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=2",              imageAlt: "New roof with quality guarantee"
+              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/satisfied-homeowner-shaking-hands-1780368744961-23456.png",              imageAlt: "New roof with quality guarantee"
             }
           ]}
           textboxLayout="default"
@@ -176,15 +176,15 @@ export default function HvacPage() {
             testimonials={[
               {
                 id: "1",                name: "James R.",                handle: "Homeowner, Austin TX",                testimonial: "RoofShield Pro replaced our old, worn-out roof with incredible efficiency. The team was professional, the site was left spotless, and our new asphalt shingle roof looks fantastic. Highly recommend their roofing expertise!",                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg",                imageAlt: "James R."
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/homeowner-with-new-roof-1780382079502-12345.jpg",                imageAlt: "James R."
               },
               {
                 id: "2",                name: "Linda M.",                handle: "Business Owner, Dallas TX",                testimonial: "After a major storm, RoofShield Pro handled our emergency roof repair quickly and professionally. Their prompt response saved us from further damage, and the quality of their work was outstanding. True lifesavers!",                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg",                imageAlt: "Linda M."
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/commercial-building-roof-1780371325762-67890.jpg",                imageAlt: "Linda M."
               },
               {
                 id: "3",                name: "Carlos D.",                handle: "Homeowner, Houston TX",                testimonial: "We needed a complete roof replacement, and RoofShield Pro delivered. Their communication was excellent throughout the project, and the craftsmanship is superb. Our home feels safer and looks better than ever.",                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg",                imageAlt: "Carlos D."
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/roofer-on-site-happy-client-1780368970943-abcde.jpg",                imageAlt: "Carlos D."
               }
             ]}
             showRating={true}
