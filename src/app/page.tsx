@@ -6,7 +6,6 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
-import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
 import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
@@ -127,27 +126,6 @@ export default function HvacPage() {
             useInvertedBackground={false}
           />
         </div>
-        <FeatureBorderGlow
-          title="Why Choose RoofShield Pro"
-          description="The foundations of our trusted roofing service."
-          features={[
-            {
-              icon: ShieldCheck,
-              title: "Reliability & Trust",              description: "Dependable roofing solutions delivered on time, every time."
-            },
-            {
-              icon: Wrench,
-              title: "Quality Workmanship",              description: "Skilled roofers using premium materials for superior, lasting results."
-            },
-            {
-              icon: DollarSign,
-              title: "Fair & Transparent Pricing",              description: "Clear, honest quotes for all roofing projects, no hidden costs."
-            }
-          ]}
-          textboxLayout="default"
-          animationType="slide-up"
-          useInvertedBackground={false}
-        />
 
         <FeatureCardEight
           title="Our Roofing Process: Simple & Seamless"
