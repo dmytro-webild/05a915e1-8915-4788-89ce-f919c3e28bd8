@@ -32,6 +32,9 @@ export default function HvacPage() {
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
             brandName="RoofShield Pro"
+            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780386886633-aptlwrk6.png"
+            logoAlt="RoofShield Pro Logo"
+            logoClassName="h-10 w-auto"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
