@@ -63,7 +63,7 @@ export default function HvacPage() {
             showDimOverlay={true}
             showBlur={false}
             titleClassName=""
-            textBoxClassName="backdrop-blur-md bg-white/10 rounded-3xl p-4"
+            textBoxClassName="w-full text-center p-4 backdrop-blur-md bg-white/10 rounded-3xl"
           />
         </div>
 
