@@ -77,7 +77,7 @@ export default function HvacPage() {
                 value: "98%",                title: "Customer satisfaction rate"
               }
             ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/remake-that-before-and-after-image-witho-1780371325762-c29beb04.png"
             imageAlt="Commercial HVAC units on rooftop"
             mediaBadge={{
               text: "Active Now",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",              avatarAlt: "Technician"
