@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Open_Sans } from "next/font/google";
 import { DM_Sans } from "next/font/google";
+import { Figtree } from "next/font/google";
 
 
 
@@ -19,12 +20,9 @@ export const metadata: Metadata = {
 
 
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+
+const figtree = Figtree({
+  variable: "--font-figtree",
   subsets: ["latin"],
 });
 
@@ -36,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
+        <body className={`${figtree.variable} antialiased`}>
           
           {children}
           <script
