@@ -6,6 +6,7 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Open_Sans } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 
 
 
@@ -14,12 +15,13 @@ export const metadata: Metadata = {
   description: 'Expert HVAC services for your home or business. From AC repair to furnace installation, we ensure your comfort all year round. Get a free quote today!',
 };
 
-const inter = Inter({
-  variable: "--font-inter",
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -31,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
+        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
