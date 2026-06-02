@@ -102,7 +102,7 @@ export default function HvacPage() {
                 title: "Roof Repairs",                description: "Addressing leaks, storm damage, and wear to extend your roof's life.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "Roof repair service"
               },
               {
-                title: "Roof Replacements ",                description: "Full roof tear-offs and installations for enhanced protection and curb appeal.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=1",                imageAlt: "Roofer performing a detailed roof inspection"
+                title: "Roof Replacements ",                description: "Full roof tear-offs and installations for enhanced protection and curb appeal.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-054s7lu2.png",                imageAlt: "Roofer performing a detailed roof inspection"
               },
               {
                 title: "Asphalt Shingle Roofing",                description: "High-quality asphalt shingle installations for durability and aesthetic versatility.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "Asphalt shingle roofing installation"
