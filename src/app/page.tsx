@@ -67,6 +67,7 @@ export default function HvacPage() {
             textBoxClassName="w-full text-center p-4 rounded-3xl"
             descriptionClassName="text-white"
             buttonTextClassName="text-black"
+            imageClassName="w-full object-contain"
           />
         </div>
 
