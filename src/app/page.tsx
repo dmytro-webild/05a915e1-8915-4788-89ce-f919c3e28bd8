@@ -30,7 +30,7 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="RoofShield Pro"
+            brandName="To The Peak Roofing INC."
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
