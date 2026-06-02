@@ -31,7 +31,8 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="RoofShield Pro"
+            brandLogoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780387870415-51876mit.png"
+            brandLogoAlt="RoofShield Pro Logo"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
