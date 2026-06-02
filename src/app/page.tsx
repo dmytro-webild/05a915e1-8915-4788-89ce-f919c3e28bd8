@@ -95,19 +95,19 @@ export default function HvacPage() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "AC Installation",                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",                imageAlt: "AC installation service"
+                title: "AC Installation",                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=1",                imageAlt: "AC installation service"
               },
               {
                 title: "Heating Systems",                description: "Complete furnace and heat pump installations to keep you warm through every winter.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg",                imageAlt: "Heating system service"
               },
               {
-                title: "Maintenance Plans",                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",                imageAlt: "HVAC maintenance"
+                title: "Maintenance Plans",                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=1",                imageAlt: "HVAC maintenance"
               },
               {
-                title: "Emergency Repairs",                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",                imageAlt: "Emergency HVAC repair"
+                title: "Emergency Repairs",                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=1",                imageAlt: "Emergency HVAC repair"
               },
               {
-                title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",                imageAlt: "Duct cleaning service"
+                title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=1",                imageAlt: "Duct cleaning service"
               },
               {
                 title: "System Inspections",                description: "Thorough inspections with detailed reports and transparent recommendations — no hidden fees.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-9.jpg",                imageAlt: "HVAC system inspection"
@@ -149,16 +149,16 @@ export default function HvacPage() {
           description="Our simple process from first call to finished job"
           features={[
             {
-              title: "Schedule a Call",              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",              imageAlt: "Scheduling a service call"
+              title: "Schedule a Call",              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=2",              imageAlt: "Scheduling a service call"
             },
             {
-              title: "On-Site Diagnosis",              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",              imageAlt: "Technician diagnosing HVAC system"
+              title: "On-Site Diagnosis",              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Technician diagnosing HVAC system"
             },
             {
-              title: "Expert Repair or Install",              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",              imageAlt: "HVAC repair in progress"
+              title: "Expert Repair or Install",              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=2",              imageAlt: "HVAC repair in progress"
             },
             {
-              title: "Quality Guarantee",              description: "We test everything before we leave and back all work with our satisfaction guarantee.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",              imageAlt: "Final quality check"
+              title: "Quality Guarantee",              description: "We test everything before we leave and back all work with our satisfaction guarantee.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=2",              imageAlt: "Final quality check"
             }
           ]}
           textboxLayout="default"
