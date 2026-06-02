@@ -67,11 +67,11 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="Protecting Homes.Earning Trust. "
+            title="ProtectingHomes.Earning Trust. "
             description="For years, we've helped homeowners protect what matters most with quality roofing solutions built to last. From repairs and replacements to complete roof installations, our experienced team delivers exceptional craftsmanship, honest communication, and attention to every detail. We take pride in exceeding expectations and ensuring every customer is confident in the finished result. When the job is complete, your roof is stronger, your home is protected, and your satisfaction is our success."
             metrics={[
               {
-                value: "2,500+",                title: "Systems installed and serviced"
+                value: "10+",                title: "Years in Business"
               },
               {
                 value: "98%",                title: "Customer satisfaction rate"
