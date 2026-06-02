@@ -31,12 +31,12 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="AirPro HVAC"
+            brandName="Roofing Pros"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Contact", id: "contact" },
+              { name: "Contact", id: "contact" }
             ]}
             button={{ text: "Get a Quote", href: "#contact" }}
             animateOnLoad={false}
@@ -50,12 +50,12 @@ export default function HvacPage() {
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg", alt: "Client" },
-              { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg", alt: "Client" },
+              { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg", alt: "Client" }
             ]}
             avatarText="Trusted by 500+ clients"
             buttons={[
               { text: "Schedule Service", href: "#contact" },
-              { text: "Our Services", href: "#services" },
+              { text: "Our Services", href: "#services" }
             ]}
             buttonAnimation="slide-up"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-1.jpg"
@@ -71,20 +71,16 @@ export default function HvacPage() {
             description="AirPro HVAC has been keeping homes and businesses comfortable for nearly two decades. Our certified technicians deliver expert installations, maintenance, and repairs — backed by transparent pricing and a commitment to getting the job done right the first time."
             metrics={[
               {
-                value: "2,500+",
-                title: "Systems installed and serviced",
+                value: "2,500+",                title: "Systems installed and serviced"
               },
               {
-                value: "98%",
-                title: "Customer satisfaction rate",
-              },
+                value: "98%",                title: "Customer satisfaction rate"
+              }
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
             imageAlt="Commercial HVAC units on rooftop"
             mediaBadge={{
-              text: "Active Now",
-              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",
-              avatarAlt: "Technician"
+              text: "Active Now",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",              avatarAlt: "Technician"
             }}
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
@@ -99,41 +95,23 @@ export default function HvacPage() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "AC Installation",
-                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",
-                imageAlt: "AC installation service",
+                title: "AC Installation",                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",                imageAlt: "AC installation service"
               },
               {
-                title: "Heating Systems",
-                description: "Complete furnace and heat pump installations to keep you warm through every winter.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg",
-                imageAlt: "Heating system service",
+                title: "Heating Systems",                description: "Complete furnace and heat pump installations to keep you warm through every winter.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg",                imageAlt: "Heating system service"
               },
               {
-                title: "Maintenance Plans",
-                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",
-                imageAlt: "HVAC maintenance",
+                title: "Maintenance Plans",                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",                imageAlt: "HVAC maintenance"
               },
               {
-                title: "Emergency Repairs",
-                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",
-                imageAlt: "Emergency HVAC repair",
+                title: "Emergency Repairs",                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",                imageAlt: "Emergency HVAC repair"
               },
               {
-                title: "Duct Cleaning",
-                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",
-                imageAlt: "Duct cleaning service",
+                title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",                imageAlt: "Duct cleaning service"
               },
               {
-                title: "System Inspections",
-                description: "Thorough inspections with detailed reports and transparent recommendations — no hidden fees.",
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-9.jpg",
-                imageAlt: "HVAC system inspection",
-              },
+                title: "System Inspections",                description: "Thorough inspections with detailed reports and transparent recommendations — no hidden fees.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-9.jpg",                imageAlt: "HVAC system inspection"
+              }
             ]}
             gridVariant="uniform-all-items-equal"
             uniformGridCustomHeightClasses="aspect-square"
@@ -150,19 +128,16 @@ export default function HvacPage() {
           features={[
             {
               icon: ShieldCheck,
-              title: "Reliability & Trust",
-              description: "Looking for a dependable HVAC company? We arrive on time and do the job right.",
+              title: "Reliability & Trust",              description: "Looking for a dependable HVAC company? We arrive on time and do the job right."
             },
             {
               icon: Wrench,
-              title: "Quality Workmanship",
-              description: "Our skilled technicians excel in various HVAC repairs, using only top-quality materials.",
+              title: "Quality Workmanship",              description: "Our skilled technicians excel in various HVAC repairs, using only top-quality materials."
             },
             {
               icon: DollarSign,
-              title: "Fair & Transparent Pricing",
-              description: "No surprises here! We offer clear quotes and fair pricing for quality work.",
-            },
+              title: "Fair & Transparent Pricing",              description: "No surprises here! We offer clear quotes and fair pricing for quality work."
+            }
           ]}
           textboxLayout="default"
           animationType="slide-up"
@@ -174,29 +149,17 @@ export default function HvacPage() {
           description="Our simple process from first call to finished job"
           features={[
             {
-              title: "Schedule a Call",
-              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",
-              imageAlt: "Scheduling a service call",
+              title: "Schedule a Call",              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg",              imageAlt: "Scheduling a service call"
             },
             {
-              title: "On-Site Diagnosis",
-              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",
-              imageAlt: "Technician diagnosing HVAC system",
+              title: "On-Site Diagnosis",              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg",              imageAlt: "Technician diagnosing HVAC system"
             },
             {
-              title: "Expert Repair or Install",
-              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",
-              imageAlt: "HVAC repair in progress",
+              title: "Expert Repair or Install",              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg",              imageAlt: "HVAC repair in progress"
             },
             {
-              title: "Quality Guarantee",
-              description: "We test everything before we leave and back all work with our satisfaction guarantee.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",
-              imageAlt: "Final quality check",
-            },
+              title: "Quality Guarantee",              description: "We test everything before we leave and back all work with our satisfaction guarantee.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg",              imageAlt: "Final quality check"
+            }
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
@@ -207,32 +170,17 @@ export default function HvacPage() {
             description="Hear from homeowners and businesses who trust AirPro HVAC."
             testimonials={[
               {
-                id: "1",
-                name: "James R.",
-                handle: "Homeowner, Austin TX",
-                testimonial: "AirPro replaced our entire AC system in one day. The crew was professional, clean, and the new unit runs quieter than anything we've had before. Highly recommend.",
-                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg",
-                imageAlt: "James R.",
+                id: "1",                name: "James R.",                handle: "Homeowner, Austin TX",                testimonial: "AirPro replaced our entire AC system in one day. The crew was professional, clean, and the new unit runs quieter than anything we've had before. Highly recommend.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg",                imageAlt: "James R."
               },
               {
-                id: "2",
-                name: "Linda M.",
-                handle: "Business Owner, Dallas TX",
-                testimonial: "We use AirPro for all three of our office locations. Their maintenance plans have saved us thousands in emergency repairs. Always on time, always honest.",
-                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg",
-                imageAlt: "Linda M.",
+                id: "2",                name: "Linda M.",                handle: "Business Owner, Dallas TX",                testimonial: "We use AirPro for all three of our office locations. Their maintenance plans have saved us thousands in emergency repairs. Always on time, always honest.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg",                imageAlt: "Linda M."
               },
               {
-                id: "3",
-                name: "Carlos D.",
-                handle: "Homeowner, Houston TX",
-                testimonial: "Our furnace broke down on the coldest night of the year. AirPro had someone at our door within two hours. Fixed it on the spot. Can't thank them enough.",
-                rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg",
-                imageAlt: "Carlos D.",
-              },
+                id: "3",                name: "Carlos D.",                handle: "Homeowner, Houston TX",                testimonial: "Our furnace broke down on the coldest night of the year. AirPro had someone at our door within two hours. Fixed it on the spot. Can't thank them enough.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg",                imageAlt: "Carlos D."
+              }
             ]}
             showRating={true}
             animationType="slide-up"
@@ -250,43 +198,33 @@ export default function HvacPage() {
             useInvertedBackground={false}
             faqs={[
               {
-                id: "1",
-                title: "Do you offer 24/7 emergency service?",
-                content: "Yes! We provide round-the-clock emergency HVAC service. If your system breaks down in the middle of the night or on a weekend, call us and a technician will be at your door as soon as possible.",
+                id: "1",                title: "How long does a typical roof inspection take?",                content: "A standard roof inspection for a residential property usually takes about 30-60 minutes, depending on the size and complexity of the roof. Commercial properties may take longer."
               },
               {
-                id: "2",
-                title: "How often should I service my HVAC system?",
-                content: "We recommend servicing your system at least twice a year — once before summer for cooling and once before winter for heating. Regular maintenance extends your system's life and keeps energy bills low.",
+                id: "2",                title: "What are the signs that my roof needs repair or replacement?",                content: "Common signs include missing or curled shingles, granules in gutters, leaks or water spots on ceilings, sagging roof deck, and moss or algae growth. A professional inspection can confirm the issues."
               },
               {
-                id: "3",
-                title: "What brands do you install and repair?",
-                content: "We work with all major HVAC brands including Carrier, Trane, Lennox, Daikin, Rheem, and more. Our technicians are trained and certified across multiple manufacturers.",
+                id: "3",                title: "Do you offer free estimates for roof repairs or replacements?",                content: "Yes, we provide free, no-obligation estimates for all roofing services. We'll assess your roof's condition and provide a detailed quote with transparent pricing."
               },
               {
-                id: "4",
-                title: "Do you offer financing options?",
-                content: "Yes, we offer flexible financing plans for new installations and major repairs. Ask about our 0% interest options so you can stay comfortable without straining your budget.",
+                id: "4",                title: "What types of roofing materials do you work with?",                content: "We specialize in a variety of roofing materials including asphalt shingles, metal roofing, tile roofs, flat roofs (TPO, PVC), and more. We can help you choose the best option for your needs."
               },
               {
-                id: "5",
-                title: "How long does a typical installation take?",
-                content: "Most residential HVAC installations are completed in one day. Larger commercial projects may take 2-3 days depending on the scope. We'll give you an accurate timeline during your consultation.",
-              },
+                id: "5",                title: "Is your company licensed and insured?",                content: "Absolutely. We are fully licensed, bonded, and insured, providing peace of mind and protection for our clients and our team throughout every project."
+              }
             ]}
           />
         </div>
 
         <div id="contact" data-section="contact">
           <ContactCTA
-            tag="Get in Touch"
+            tag="Book an Inspection"
             tagIcon={Phone}
-            title="Ready to Stay Comfortable Year-Round?"
-            description="Whether you need a new installation, emergency repair, or routine maintenance — our team is ready to help. Call us today or request a free quote."
+            title="Ready for a Professional Roof Inspection?"
+            description="Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
             buttons={[
-              { text: "Get a Free Quote", href: "#contact" },
-              { text: "Call (555) 987-6543", href: "tel:5559876543" },
+              { text: "Schedule Inspection", href: "#contact" },
+              { text: "Call for Consultation", href: "tel:5559876543" }
             ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
@@ -295,38 +233,35 @@ export default function HvacPage() {
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            logoText="AirPro HVAC"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg"
-            imageAlt="HVAC technician inspecting equipment"
+            logoText="Roofing Pros"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/construction/img-1.jpg"
+            imageAlt="Roofing technician on a roof"
             columns={[
               {
-                title: "Services",
-                items: [
-                  { label: "AC Installation", href: "#services" },
-                  { label: "Heating Systems", href: "#services" },
-                  { label: "Maintenance Plans", href: "#services" },
-                  { label: "Emergency Repairs", href: "#services" },
-                ],
+                title: "Services",                items: [
+                  { label: "Roof Repair", href: "#services" },
+                  { label: "Roof Replacement", href: "#services" },
+                  { label: "New Roof Installation", href: "#services" },
+                  { label: "Roof Maintenance", href: "#services" }
+                ]
               },
               {
-                title: "Company",
-                items: [
+                title: "Company",                items: [
                   { label: "About Us", href: "#about" },
                   { label: "Testimonials", href: "#testimonials" },
                   { label: "FAQ", href: "#faq" },
-                  { label: "Contact", href: "#contact" },
-                ],
+                  { label: "Contact", href: "#contact" }
+                ]
               },
               {
-                title: "Contact",
-                items: [
-                  { label: "(555) 987-6543", href: "tel:5559876543" },
-                  { label: "info@airprohvac.com", href: "mailto:info@airprohvac.com" },
-                  { label: "Austin, TX" },
-                ],
-              },
+                title: "Contact",                items: [
+                  { label: "(555) 123-4567", href: "tel:5551234567" },
+                  { label: "info@roofingpros.com", href: "mailto:info@roofingpros.com" },
+                  { label: "City, State" }
+                ]
+              }
             ]}
-            copyrightText="© 2026 | AirPro HVAC"
+            copyrightText="© 2026 | Roofing Pros"
           />
         </div>
       </ReactLenis>
