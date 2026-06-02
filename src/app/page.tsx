@@ -124,7 +124,7 @@ export default function HvacPage() {
             gridClassName="md:!grid-cols-3"
             carouselThreshold={6}
             carouselMode="auto"
-            animationType="slide-up"
+            animationType="scale-rotate"
             textboxLayout="default"
             useInvertedBackground={false}
           />
