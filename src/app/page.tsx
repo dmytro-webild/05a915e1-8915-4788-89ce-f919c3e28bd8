@@ -236,7 +236,7 @@ export default function HvacPage() {
                 title: "Contact",                items: [
                   { label: "250-617-1940", href: "tel:2506171940" },
                   { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
-                  { label: "City, State" }
+                  { label: "Prince George, BC, Canada" }
                 ]
               }
             ]}
