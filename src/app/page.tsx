@@ -67,8 +67,8 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="Reliable Climate Solutions Since 2005"
-            description="AirPro HVAC has been keeping homes and businesses comfortable for nearly two decades. Our certified technicians deliver expert installations, maintenance, and repairs — backed by transparent pricing and a commitment to getting the job done right the first time."
+            title="Protecting Homes.Earning Trust. "
+            description="For years, we've helped homeowners protect what matters most with quality roofing solutions built to last. From repairs and replacements to complete roof installations, our experienced team delivers exceptional craftsmanship, honest communication, and attention to every detail. We take pride in exceeding expectations and ensuring every customer is confident in the finished result. When the job is complete, your roof is stronger, your home is protected, and your satisfaction is our success."
             metrics={[
               {
                 value: "2,500+",                title: "Systems installed and serviced"
