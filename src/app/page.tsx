@@ -35,7 +35,8 @@ export default function HvacPage() {
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Get a Quote", id: "/quote" }
+              { name: "Get a Quote", id: "/quote" },
+              { name: "Privacy Policy", id: "/privacy-policy" }
             ]}
             button={{ text: "Get a Quote", href: "/quote" }}
             animateOnLoad={false}
@@ -54,7 +55,7 @@ export default function HvacPage() {
             avatarText="Trusted by 500+ homeowners & businesses"
             buttons={[
               { text: "Schedule Service", href: "/quote" },
-              { text: "Our Services", href: "#services" }
+              { text: "Our Services", href: "/#services" }
             ]}
             buttonAnimation="slide-up"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780427176408-lfak1zw3.png"
@@ -95,8 +96,7 @@ export default function HvacPage() {
           <FeatureCardOne
             title="Our Comprehensive Roofing Services"
             description="From minor repairs to complete roof overhauls, we provide lasting solutions."
-            buttons={[{ text: "Get a Quote", href: "/quote" }]}
-            buttonAnimation="slide-up"
+            buttons={[{ text: "Get a Quote", href: "/quote" }]}n            buttonAnimation="slide-up"
             features={[
               {
                 title: "Roof Repairs",                description: "Addressing leaks, storm damage, and wear to extend your roof's life.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "Roof repair service"
@@ -174,8 +174,7 @@ export default function HvacPage() {
         <div id="faq" data-section="faq">
           <FaqSplitText
             sideTitle="Common Roofing Questions"
-            buttons={[{ text: "Contact Us", href: "/quote" }]}
-            buttonAnimation="slide-up"
+            buttons={[{ text: "Contact Us", href: "/quote" }]}n            buttonAnimation="slide-up"
             faqsAnimation="slide-up"
             textPosition="left"
             useInvertedBackground={false}
@@ -218,18 +217,19 @@ export default function HvacPage() {
             columns={[
               {
                 title: "Services",                items: [
-                  { label: "Roof Repair", href: "#services" },
-                  { label: "Roof Replacement", href: "#services" },
-                  { label: "New Roof Installation", href: "#services" },
-                  { label: "Roof Maintenance", href: "#services" }
+                  { label: "Roof Repair", href: "/#services" },
+                  { label: "Roof Replacement", href: "/#services" },
+                  { label: "New Roof Installation", href: "/#services" },
+                  { label: "Roof Maintenance", href: "/#services" }
                 ]
               },
               {
                 title: "Company",                items: [
-                  { label: "About Us", href: "#about" },
-                  { label: "Testimonials", href: "#testimonials" },
-                  { label: "FAQ", href: "#faq" },
-                  { label: "Get a Quote", href: "/quote" }
+                  { label: "About Us", href: "/#about" },
+                  { label: "Testimonials", href: "/#testimonials" },
+                  { label: "FAQ", href: "/#faq" },
+                  { label: "Get a Quote", href: "/quote" },
+                  { label: "Privacy Policy", href: "/privacy-policy" }
                 ]
               },
               {
