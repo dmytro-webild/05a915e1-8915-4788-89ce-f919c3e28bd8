@@ -52,6 +52,7 @@ export default function QuotePage() {
               termsText="By submitting, you agree to our privacy policy and to be contacted regarding your request."
               onSubmit={(email) => alert(`Quote request submitted for ${email}`)}
               centered={true}
+              useInvertedBackground={false}
               className="px-4"
               titleClassName="text-white"
               descriptionClassName="text-white"
