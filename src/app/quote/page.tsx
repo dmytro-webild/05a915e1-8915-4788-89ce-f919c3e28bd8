@@ -55,7 +55,7 @@ export default function QuotePage() {
 
         <div id="call-us-section" data-section="call-us-section">
           <ContactText
-            text="Prefer to talk? Call us directly for immediate assistance."
+            text="Prefer to talk? Call us directly for immediate assistance at 250-617-1940."
             buttons={[
               { text: "Call Now", href: "tel:2506171940" }
             ]}
