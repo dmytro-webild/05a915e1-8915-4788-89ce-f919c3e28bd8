@@ -10,9 +10,9 @@ import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/F
 import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
-import ContactCTA from "@/components/sections/contact/ContactCTA";
-import FooterMedia from "@/components/sections/footer/FooterMedia";
-import { ShieldCheck, Wrench, DollarSign, Phone } from "lucide-react";
+import ContactText from '@/components/sections/contact/ContactText';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { ShieldCheck, Wrench, DollarSign } from "lucide-react";
 
 export default function HvacPage() {
   return (
@@ -217,25 +217,21 @@ export default function HvacPage() {
         </div>
 
         <div id="contact" data-section="contact">
-          <ContactCTA
-            tag="Book an Inspection"
-            tagIcon={Phone}
-            title="Ready for a Professional Roof Inspection?"
-            description="Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
+          <ContactText
+            text="Ready for a Professional Roof Inspection? Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
             buttons={[
               { text: "Schedule Inspection", href: "#contact" },
               { text: "Call for Consultation", href: "tel:5559876543" }
             ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
+            animationType="entrance-slide"
           />
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterMedia
+          <FooterBaseCard
             logoText="AirPro HVAC"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/construction/img-1.jpg"
-            imageAlt="Roofing technician on a roof"
             columns={[
               {
                 title: "Services",                items: [
