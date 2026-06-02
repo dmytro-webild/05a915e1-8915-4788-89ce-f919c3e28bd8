@@ -122,8 +122,8 @@ export default function PrivacyPolicyPage() {
               },
               {
                 heading: "12. Canadian Privacy Compliance",                content: [
-                  { type: "paragraph", text: "We operate in Canada and comply with the Personal Information Protection and Electronic Documents Act (PIPEDA) and provincial privacy legislation such as British Columbia's Personal Information Protection Act (PIPA).
-As a Canadian company, we are committed to upholding the highest standards of privacy for our customers. Your personal information will be collected, used, and disclosed only for purposes that a reasonable person would consider appropriate in the circumstances, and with your knowledge and consent, unless otherwise required or permitted by law."}
+                  { type: "paragraph", text: "We operate in Canada and comply with the Personal Information Protection and Electronic Documents Act (PIPEDA) and provincial privacy legislation such as British Columbia's Personal Information Protection Act (PIPA)."},
+                  { type: "paragraph", text: "As a Canadian company, we are committed to upholding the highest standards of privacy for our customers. Your personal information will be collected, used, and disclosed only for purposes that a reasonable person would consider appropriate in the circumstances, and with your knowledge and consent, unless otherwise required or permitted by law."}
                 ]
               },
               {
@@ -147,7 +147,7 @@ As a Canadian company, we are committed to upholding the highest standards of pr
 
         <div id="footer" data-section="footer">
           <FooterBaseCard
-            logoText="To The Peak Roofing INC."
+            logoText="RoofShield Pro"
             columns={[
               {
                 title: "Services",                items: [
@@ -169,12 +169,12 @@ As a Canadian company, we are committed to upholding the highest standards of pr
               {
                 title: "Contact",                items: [
                   { label: "250-617-1940", href: "tel:2506171940" },
-                  { label: "info@tothepeakroofing.com", href: "mailto:info@tothepeakroofing.com" },
+                  { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
                   { label: "Prince George, BC, Canada" }
                 ]
               }
             ]}
-            copyrightText="© 2026 | To The Peak Roofing INC."
+            copyrightText="© 2026 | RoofShield Pro"
             onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>
