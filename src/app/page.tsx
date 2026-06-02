@@ -95,16 +95,16 @@ export default function HvacPage() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "AC Installation",                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "AC installation service"
+                title: "Roof Repairs",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "AC installation service"
               },
               {
-                title: "Heating Systems",                description: "Complete furnace and heat pump installations to keep you warm through every winter.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-054s7lu2.png",                imageAlt: "Heating system service"
+                title: "Roof Replacements ",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-054s7lu2.png",                imageAlt: "Heating system service"
               },
               {
-                title: "Maintenance Plans",                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "HVAC maintenance"
+                title: "Asphalt Shingle Roofing",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "HVAC maintenance"
               },
               {
-                title: "Emergency Repairs",                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-ekekc7j6.png",                imageAlt: "Emergency HVAC repair"
+                title: "Leak Detection & Repair",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-ekekc7j6.png",                imageAlt: "Emergency HVAC repair"
               },
               {
                 title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-35f1otob.png",                imageAlt: "Duct cleaning service"
