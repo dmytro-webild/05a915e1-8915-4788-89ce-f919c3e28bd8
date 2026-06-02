@@ -31,7 +31,7 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="Roofing Pros"
+            brandName="AirPro HVAC"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
@@ -233,7 +233,7 @@ export default function HvacPage() {
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            logoText="Roofing Pros"
+            logoText="AirPro HVAC"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/construction/img-1.jpg"
             imageAlt="Roofing technician on a roof"
             columns={[
@@ -256,12 +256,12 @@ export default function HvacPage() {
               {
                 title: "Contact",                items: [
                   { label: "(555) 123-4567", href: "tel:5551234567" },
-                  { label: "info@roofingpros.com", href: "mailto:info@roofingpros.com" },
+                  { label: "info@airprohvac.com", href: "mailto:info@airprohvac.com" },
                   { label: "City, State" }
                 ]
               }
             ]}
-            copyrightText="© 2026 | Roofing Pros"
+            copyrightText="© 2026 | AirPro HVAC"
           />
         </div>
       </ReactLenis>
