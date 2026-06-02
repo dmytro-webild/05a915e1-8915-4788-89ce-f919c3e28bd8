@@ -31,8 +31,7 @@ export default function PrivacyPolicyPage() {
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Get a Quote", id: "/quote" },
-              { name: "Privacy Policy", id: "/privacy-policy" }
+              { name: "Get a Quote", id: "/quote" }
             ]}
             button={{ text: "Get a Quote", href: "/quote" }}
             animateOnLoad={false}
@@ -97,7 +96,8 @@ export default function PrivacyPolicyPage() {
               },
               {
                 heading: "7. Changes to This Privacy Policy",                content: [
-                  { type: "paragraph", text: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page." }
+                  { type: "paragraph", text: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+                  }
                 ]
               },
               {
