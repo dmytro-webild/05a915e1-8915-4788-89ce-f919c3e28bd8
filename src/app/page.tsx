@@ -32,9 +32,6 @@ export default function HvacPage() {
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
             brandName="RoofShield Pro"
-            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780386886633-aptlwrk6.png"
-            logoAlt="RoofShield Pro Logo"
-            logoClassName="h-10 w-auto"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
@@ -227,10 +224,10 @@ export default function HvacPage() {
         <div id="contact" data-section="contact">
           <ContactText
             text="Ready for a Professional Roof Inspection? Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
-            buttons={[
+            buttons=[
               { text: "Schedule Inspection", href: "#contact" },
               { text: "Call for Consultation", href: "tel:5559876543" }
-            ]}
+            ]
             background={{ variant: "plain" }}
             useInvertedBackground={false}
             animationType="entrance-slide"
