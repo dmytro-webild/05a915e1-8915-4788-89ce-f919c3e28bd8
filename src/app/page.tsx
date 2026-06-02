@@ -62,8 +62,9 @@ export default function HvacPage() {
             imageAlt="Professional roofer inspecting a residential roof"
             showDimOverlay={true}
             showBlur={false}
-            titleClassName=""
-            textBoxClassName="w-full text-center p-4 backdrop-blur-md bg-white/10 rounded-3xl"
+            titleClassName="text-white drop-shadow-[0_2px_0_rgb(0,0,0)]"
+            textBoxClassName="w-full text-center p-4 rounded-3xl"
+            descriptionClassName="text-white"
           />
         </div>
 
