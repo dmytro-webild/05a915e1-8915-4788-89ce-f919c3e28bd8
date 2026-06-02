@@ -224,10 +224,10 @@ export default function HvacPage() {
         <div id="contact" data-section="contact">
           <ContactText
             text="Ready for a Professional Roof Inspection? Ensure your roof is in top condition. Schedule a comprehensive inspection today to identify any potential issues and prevent costly damage."
-            buttons=[
+            buttons={[
               { text: "Schedule Inspection", href: "#contact" },
               { text: "Call for Consultation", href: "tel:5559876543" }
-            ]
+            ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
             animationType="entrance-slide"
