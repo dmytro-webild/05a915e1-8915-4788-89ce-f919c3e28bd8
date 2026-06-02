@@ -141,7 +141,7 @@ export default function HvacPage() {
               title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780429894991-ki7oyl50.png",              imageAlt: "Roof repair in progress"
             },
             {
-              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/satisfied-homeowner-shaking-hands-1780368744961-23456.png",              imageAlt: "New roof with quality guarantee"
+              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780430327197-qj1e7m5g.png",              imageAlt: "New roof with quality guarantee"
             }
           ]}
           textboxLayout="default"
