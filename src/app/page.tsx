@@ -216,7 +216,7 @@ export default function HvacPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseCard
-            logoText="RoofShield Pro"
+            logoText="To The Peak Roofing INC."
             columns={[
               {
                 title: "Services",                items: [
@@ -238,12 +238,12 @@ export default function HvacPage() {
               {
                 title: "Contact",                items: [
                   { label: "250-617-1940", href: "tel:2506171940" },
-                  { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
+                  { label: "info@tothepeakroofing.com", href: "mailto:info@tothepeakroofing.com" },
                   { label: "Prince George, BC, Canada" }
                 ]
               }
             ]}
-            copyrightText="© 2026 | RoofShield Pro"
+            copyrightText="© 2026 | To The Peak Roofing INC."
             onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>

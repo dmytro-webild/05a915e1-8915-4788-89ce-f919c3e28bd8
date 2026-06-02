@@ -46,99 +46,94 @@ export default function PrivacyPolicyPage() {
             sections={[
               {
                 heading: "1. Introduction",                content: [
-                  { type: "paragraph", text: "Welcome to To The Peak Roofing INC. This Privacy Policy explains what information we collect, how we use it, and your choices regarding your information. We are committed to protecting your privacy." }
+                  { type: "paragraph", text: "Welcome to To The Peak Roofing INC. We value your privacy and are committed to protecting your personal information. This Privacy Policy explains what information we collect, how we use it, how we protect it, and the choices available to you regarding your information. By using our website, requesting a quote, or contacting us through our website, you agree to the collection and use of information in accordance with this Privacy Policy." }
                 ]
               },
               {
                 heading: "2. Information We Collect",                content: [
-                  { type: "paragraph", text: "We collect various types of information to provide and improve our Service to you. The types of information we collect include:" },
-                  {
-                    type: "list",                    items: [
-                      "Personal Data: While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to: Email address, First name and last name, Phone number, Address, Cookies and Usage Data.",                      "Usage Data: We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device. This Usage Data may include information such as your computer's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data."
-                    ]
-                  }
+                  { type: "paragraph", text: "We may collect the following types of information:" },
+                  { type: "paragraph", text: "Personal Information" },
+                  { type: "paragraph", text: "Information you voluntarily provide to us, including:" },
+                  { type: "list", items: ["Full name", "Email address", "Phone number", "Physical address", "Property information related to roofing projects", "Any information submitted through contact forms, quote requests, emails, or phone calls"] },
+                  { type: "paragraph", text: "Website Usage Information" },
+                  { type: "paragraph", text: "We may automatically collect certain information when you visit our website, including:" },
+                  { type: "list", items: ["IP address", "Browser type and version", "Device information", "Pages visited", "Time and date of visits", "Time spent on pages", "Referring website addresses"] }
                 ]
               },
               {
                 heading: "3. How We Use Your Information",                content: [
-                  { type: "paragraph", text: "To The Peak Roofing INC. uses the collected data for various purposes:" },
-                  {
-                    type: "list",                    items: [
-                      "To provide and maintain the Service",                      "To notify you about changes to our Service",                      "To allow you to participate in interactive features of our Service when you choose to do so",                      "To provide customer support",                      "To gather analysis or valuable information so that we can improve the Service",                      "To monitor the usage of the Service",                      "To detect, prevent and address technical issues",                      "To manage your requests"
-                    ]
-                  }
+                  { type: "paragraph", text: "We use the information we collect to:" },
+                  { type: "list", items: ["Respond to quote requests and inquiries", "Schedule consultations and appointments", "Provide roofing services", "Communicate with you regarding projects and estimates", "Improve our website and customer experience", "Monitor website performance and usage", "Prevent fraud and enhance website security", "Comply with legal obligations", "Send service-related updates and communications"] }
                 ]
               },
               {
                 heading: "4. Cookies and Analytics",                content: [
-                  { type: "paragraph", text: "We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service."},                  { type: "paragraph", text: "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service."}
+                  { type: "paragraph", text: "Our website may use cookies and similar technologies to improve your browsing experience and analyze website traffic. Cookies may collect information such as:" },
+                  { type: "list", items: ["Browser preferences", "Website usage patterns", "Device information", "Visitor behavior"] },
+                  { type: "paragraph", text: "We may use third-party analytics services such as Google Analytics to better understand how visitors use our website. You can disable cookies through your browser settings; however, some website features may not function properly." }
                 ]
               },
               {
                 heading: "5. Sharing Your Information",                content: [
-                  { type: "paragraph", text: "We may share your information in the following situations:" },
-                  {
-                    type: "list",                    items: [
-                      "With Service Providers: We may share your personal information with service providers to monitor and analyze the use of our Service, for payment processing, to contact you.",                      "For Business Transfers: We may share or transfer your personal information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.",                      "With Affiliates: We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include our parent company and any other subsidiaries, joint venture partners or other companies that we control or that are under common control with us.",                      "With Business Partners: We may share your information with our business partners to offer you certain products, services or promotions.",                      "With Your Consent: We may disclose your personal information for any other purpose with your consent."
-                    ]
-                  }
+                  { type: "paragraph", text: "We do not sell, rent, or trade your personal information. We may share information only in the following situations:" },
+                  { type: "paragraph", text: "Service Providers" },
+                  { type: "paragraph", text: "We may work with trusted third-party companies that help us operate our website, process inquiries, manage communications, or provide business services. These providers are required to keep your information confidential and use it only for authorized purposes." },
+                  { type: "paragraph", text: "Legal Requirements" },
+                  { type: "paragraph", text: "We may disclose information if required to:" },
+                  { type: "list", items: ["Comply with legal obligations", "Respond to lawful requests from government authorities", "Protect our rights and property", "Prevent fraud or illegal activity", "Protect the safety of our customers or the public"] }
                 ]
               },
               {
                 heading: "6. Data Retention",                content: [
-                  { type: "paragraph", text: "To The Peak Roofing INC. will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies."},                  { type: "paragraph", text: "To The Peak Roofing INC. will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods."}
+                  { type: "paragraph", text: "We retain personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, provide services, comply with legal requirements, resolve disputes, and enforce our agreements. When information is no longer required, we take reasonable steps to securely delete or destroy it." }
                 ]
               },
               {
                 heading: "7. Security of Information",                content: [
-                  { type: "paragraph", text: "The security of your Data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security." }
+                  { type: "paragraph", text: "We take reasonable administrative, technical, and physical measures to protect your personal information from unauthorized access, use, disclosure, alteration, or destruction. However, no method of electronic transmission or storage is completely secure, and we cannot guarantee absolute security." }
                 ]
               },
               {
                 heading: "8. Marketing Communications",                content: [
-                  { type: "paragraph", text: "We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us." }
+                  { type: "paragraph", text: "If you submit a contact form, request a quote, or otherwise provide your contact information, we may contact you regarding:" },
+                  { type: "list", items: ["Estimates and quotes", "Appointments", "Roofing services", "Project updates", "Customer service matters"] },
+                  { type: "paragraph", text: "You may opt out of receiving promotional communications at any time by contacting us directly." }
                 ]
               },
               {
                 heading: "9. Third-Party Links",                content: [
-                  { type: "paragraph", text: "Our Service may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit."},                  { type: "paragraph", text: "We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services."}
+                  { type: "paragraph", text: "Our website may contain links to external websites, including social media platforms, review websites, and other third-party services. We are not responsible for the privacy practices, policies, or content of these external websites. We encourage users to review the privacy policies of any website they visit." }
                 ]
               },
               {
                 heading: "10. Children's Privacy",                content: [
-                  { type: "paragraph", text: "Our Service does not address anyone under the age of 13 (\"Children\")."},
-                  { type: "paragraph", text: "We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers."}
+                  { type: "paragraph", text: "Our services are intended for adults and property owners. We do not knowingly collect personal information from individuals under the age of 13. If we become aware that personal information has been collected from a child under 13 without parental consent, we will take reasonable steps to remove that information." }
                 ]
               },
               {
                 heading: "11. Your Privacy Rights",                content: [
-                  { type: "paragraph", text: "Depending on your location, you may have the following data protection rights:" },
-                  {
-                    type: "list",                    items: [
-                      "The right to access, update or delete the information we have on you.",                      "The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete.",                      "The right to object. You have the right to object to our processing of your Personal Data.",                      "The right of restriction. You have the right to request that we restrict the processing of your personal information.",                      "The right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable and commonly used format.",                      "The right to withdraw consent. You also have the right to withdraw your consent at any time where To The Peak Roofing INC. relied on your consent to process your personal information."
-                    ]
-                  }
+                  { type: "paragraph", text: "Depending on applicable laws, you may have the right to:" },
+                  { type: "list", items: ["Access personal information we hold about you", "Correct inaccurate information", "Request deletion of your personal information", "Withdraw consent where applicable", "Request information about how your data is used"] },
+                  { type: "paragraph", text: "To exercise any of these rights, please contact us using the information below." }
                 ]
               },
               {
                 heading: "12. Canadian Privacy Compliance",                content: [
-                  { type: "paragraph", text: "We operate in Canada and comply with the Personal Information Protection and Electronic Documents Act (PIPEDA) and provincial privacy legislation such as British Columbia's Personal Information Protection Act (PIPA)."},
-                  { type: "paragraph", text: "As a Canadian company, we are committed to upholding the highest standards of privacy for our customers. Your personal information will be collected, used, and disclosed only for purposes that a reasonable person would consider appropriate in the circumstances, and with your knowledge and consent, unless otherwise required or permitted by law."}
+                  { type: "paragraph", text: "To The Peak Roofing INC. is committed to protecting personal information in accordance with applicable Canadian privacy laws, including the Personal Information Protection and Electronic Documents Act (PIPEDA)." }
                 ]
               },
               {
                 heading: "13. Changes to This Privacy Policy",                content: [
-                  { type: "paragraph", text: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the 'Last Updated' date at the top of this Privacy Policy."},                  { type: "paragraph", text: "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page." }
+                  { type: "paragraph", text: "We may update this Privacy Policy periodically to reflect changes in our practices, services, or legal requirements. Any updates will be posted on this page with a revised \"Last Updated\" date. We encourage you to review this Privacy Policy regularly." }
                 ]
               },
               {
                 heading: "14. Contact Us",                content: [
-                  { type: "paragraph", text: "If you have any questions about this Privacy Policy, please contact us:" },
-                  {
-                    type: "list",                    items: [
-                      "By email: info@tothepeakroofing.com",                      "By phone: 250-617-1940"
-                    ]
-                  }
+                  { type: "paragraph", text: "If you have any questions regarding this Privacy Policy or your personal information, please contact us:" },
+                  { type: "paragraph", text: "To The Peak Roofing INC." },
+                  { type: "paragraph", text: "Email: info@tothepeakroofing.com" },
+                  { type: "paragraph", text: "Phone: 250-617-1940" },
+                  { type: "paragraph", text: "Prince George, British Columbia, Canada" }
                 ]
               }
             ]}
@@ -147,7 +142,7 @@ export default function PrivacyPolicyPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseCard
-            logoText="RoofShield Pro"
+            logoText="To The Peak Roofing INC."
             columns={[
               {
                 title: "Services",                items: [
@@ -169,12 +164,12 @@ export default function PrivacyPolicyPage() {
               {
                 title: "Contact",                items: [
                   { label: "250-617-1940", href: "tel:2506171940" },
-                  { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
+                  { label: "info@tothepeakroofing.com", href: "mailto:info@tothepeakroofing.com" },
                   { label: "Prince George, BC, Canada" }
                 ]
               }
             ]}
-            copyrightText="© 2026 | RoofShield Pro"
+            copyrightText="© 2026 | To The Peak Roofing INC."
             onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>
