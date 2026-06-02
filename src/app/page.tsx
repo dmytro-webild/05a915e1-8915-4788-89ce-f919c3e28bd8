@@ -97,7 +97,8 @@ export default function HvacPage() {
           <FeatureCardOne
             title="Our Comprehensive Roofing Services"
             description="From minor repairs to complete roof overhauls, we provide lasting solutions."
-            buttons={[{ text: "Get a Quote", href: "/quote" }]}n            buttonAnimation="slide-up"
+            buttons={[{ text: "Get a Quote", href: "/quote" }]}
+            buttonAnimation="slide-up"
             features={[
               {
                 title: "Roof Repairs",                description: "Addressing leaks, storm damage, and wear to extend your roof's life.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "Roof repair service"
@@ -176,7 +177,8 @@ export default function HvacPage() {
         <div id="faq" data-section="faq">
           <FaqSplitText
             sideTitle="Common Roofing Questions"
-            buttons={[{ text: "Contact Us", href: "/quote" }]}n            buttonAnimation="slide-up"
+            buttons={[{ text: "Contact Us", href: "/quote" }]}
+            buttonAnimation="slide-up"
             faqsAnimation="slide-up"
             textPosition="left"
             useInvertedBackground={false}
