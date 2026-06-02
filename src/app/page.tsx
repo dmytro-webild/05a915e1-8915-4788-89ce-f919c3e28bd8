@@ -131,26 +131,30 @@ export default function HvacPage() {
           />
         </div>
 
-        <FeatureCardEight
-          title="Our Roofing Process: Simple & Seamless"
-          description="From your initial inquiry to a perfectly finished roof."
-          features={[
-            {
-              title: "Schedule a Consultation",              description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780428516962-je9s1m5y.png",              imageAlt: "Scheduling a roof consultation"
-            },
-            {
-              title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=2",              imageAlt: "Roofer performing a detailed roof inspection"
-            },
-            {
-              title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780429894991-ki7oyl50.png",              imageAlt: "Roof repair in progress"
-            },
-            {
-              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780430327197-qj1e7m5g.png",              imageAlt: "New roof with quality guarantee"
-            }
-          ]}
-          textboxLayout="default"
-          useInvertedBackground={false}
-        />
+        <div id="our-roofing-process" data-section="our-roofing-process">
+          <FeatureCardEight
+            title="Our Roofing Process: Simple & Seamless"
+            description="From your initial inquiry to a perfectly finished roof."
+            features={[
+              {
+                title: "Schedule a Consultation",                description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780428516962-je9s1m5y.png",                imageAlt: "Scheduling a roof consultation"
+              },
+              {
+                title: "Detailed Roof Inspection",                description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=2",                imageAlt: "Roofer performing a detailed roof inspection"
+              },
+              {
+                title: "Expert Installation & Repair",                description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780429894991-ki7oyl50.png",                imageAlt: "Roof repair in progress"
+              },
+              {
+                title: "Satisfaction & Warranty",                description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780430327197-qj1e7m5g.png",                imageAlt: "New roof with quality guarantee"
+              }
+            ]}
+            textboxLayout="default"
+            useInvertedBackground={false}
+            carouselMode="auto"
+            carouselThreshold={1}
+          />
+        </div>
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
             title="What Our Clients Say About Their New Roofs"
