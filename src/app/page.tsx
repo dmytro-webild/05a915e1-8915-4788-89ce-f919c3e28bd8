@@ -102,7 +102,7 @@ export default function HvacPage() {
                 title: "Roof Repairs",                description: "Addressing leaks, storm damage, and wear to extend your roof's life.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "Roof repair service"
               },
               {
-                title: "Roof Replacements ",                description: "Full roof tear-offs and installations for enhanced protection and curb appeal.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png",                imageAlt: "Roofer performing a detailed roof inspection"
+                title: "Roof Replacements ",                description: "Full roof tear-offs and installations for enhanced protection and curb appeal.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=1",                imageAlt: "Roofer performing a detailed roof inspection"
               },
               {
                 title: "Asphalt Shingle Roofing",                description: "High-quality asphalt shingle installations for durability and aesthetic versatility.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "Asphalt shingle roofing installation"
@@ -135,7 +135,7 @@ export default function HvacPage() {
               title: "Schedule a Consultation",              description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390011478-za8j0zeo.png",              imageAlt: "Scheduling a roof consultation"
             },
             {
-              title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png",              imageAlt: "Roofer performing a detailed roof inspection"
+              title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=2",              imageAlt: "Roofer performing a detailed roof inspection"
             },
             {
               title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/newly-installed-roof-with-crew-1780368744961-78901.png",              imageAlt: "Roof repair in progress"
