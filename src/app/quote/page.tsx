@@ -3,9 +3,9 @@
 import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import ContactSplit from "@/components/sections/contact/ContactSplit";
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import ContactForm from "@/components/form/ContactForm";
 
 export default function QuotePage() {
   return (
@@ -36,21 +36,29 @@ export default function QuotePage() {
           />
         </div>
 
-        <div id="quote-section" data-section="quote-section">
-          <ContactSplit
-            tag="Schedule Now"
-            title="Get Your Free Roofing Quote"
-            description="Fill out the form below to receive a detailed, no-obligation estimate for your roofing project. Our experts will be in touch shortly to discuss your needs and schedule an inspection. You can also reach us directly at 250-617-1940."
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=2"
-            imageAlt="Roofer providing a quote or performing an inspection"
-            mediaPosition="right"
-            inputPlaceholder="Your Email Address"
-            buttonText="Submit My Request"
-            termsText="By submitting, you agree to our privacy policy and to be contacted regarding your request."
-            onSubmit={(email) => alert(`Quote request submitted for ${email}`)}
-          />
+        <div
+          id="quote-section"
+          data-section="quote-section"
+          className="relative isolate overflow-hidden bg-[url('https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780434808182-f384ewex.png')] bg-cover bg-center py-20 md:py-32 text-white"
+        >
+          <div className="absolute inset-0 bg-black/50" aria-hidden="true" />
+          <div className="relative z-10">
+            <ContactForm
+              tag="Schedule Now"
+              title="Get Your Free Roofing Quote"
+              description="Fill out the form below to receive a detailed, no-obligation estimate for your roofing project. Our experts will be in touch shortly to discuss your needs and schedule an inspection. You can also reach us directly at 250-617-1940."
+              inputPlaceholder="Your Email Address"
+              buttonText="Submit My Request"
+              termsText="By submitting, you agree to our privacy policy and to be contacted regarding your request."
+              onSubmit={(email) => alert(`Quote request submitted for ${email}`)}
+              centered={true}
+              className="px-4"
+              titleClassName="text-white"
+              descriptionClassName="text-white"
+              tagClassName="text-white"
+              termsClassName="text-white"
+            />
+          </div>
         </div>
 
         <div id="call-us-section" data-section="call-us-section">
