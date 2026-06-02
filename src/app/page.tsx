@@ -12,8 +12,10 @@ import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { ShieldCheck, Wrench, DollarSign } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function HvacPage() {
+  const router = useRouter();
   return (
     <ThemeProvider
       defaultButtonVariant="directional-hover"
@@ -243,6 +245,7 @@ export default function HvacPage() {
               }
             ]}
             copyrightText="© 2026 | RoofShield Pro"
+            onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>
       </ReactLenis>

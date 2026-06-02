@@ -8,11 +8,13 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
 import Input from "@/components/form/Input";
 import ButtonBounceEffect from "@/components/button/ButtonBounceEffect/ButtonBounceEffect";
+import { useRouter } from "next/navigation";
 
 export default function QuotePage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [comments, setComments] = useState("");
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -168,6 +170,7 @@ export default function QuotePage() {
               }
             ]}
             copyrightText="© 2026 | RoofShield Pro"
+            onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>
       </ReactLenis>
