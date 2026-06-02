@@ -107,10 +107,10 @@ export default function HvacPage() {
                 title: "Leak Detection & Repair",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-ekekc7j6.png",                imageAlt: "Emergency HVAC repair"
               },
               {
-                title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-35f1otob.png",                imageAlt: "Duct cleaning service"
+                title: "Ventilation & Roofing Accessories Installation",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-35f1otob.png",                imageAlt: "Duct cleaning service"
               },
               {
-                title: "System Inspections",                description: "Thorough inspections with detailed reports and transparent recommendations — no hidden fees.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368744961-40lhnvum.png",                imageAlt: "HVAC system inspection"
+                title: "Residential Roofing",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368744961-40lhnvum.png",                imageAlt: "HVAC system inspection"
               }
             ]}
             gridVariant="uniform-all-items-equal"
