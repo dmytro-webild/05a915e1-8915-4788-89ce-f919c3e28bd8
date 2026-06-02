@@ -6,8 +6,10 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import LegalSection from '@/components/legal/LegalSection';
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import { useRouter } from "next/navigation";
 
 export default function PrivacyPolicyPage() {
+  const router = useRouter();
   return (
     <ThemeProvider
       defaultButtonVariant="directional-hover"
@@ -142,6 +144,7 @@ export default function PrivacyPolicyPage() {
               }
             ]}
             copyrightText="© 2026 | RoofShield Pro"
+            onPrivacyClick={() => router.push('/privacy-policy')}
           />
         </div>
       </ReactLenis>
