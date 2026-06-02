@@ -4,6 +4,7 @@ import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import ContactSplit from "@/components/sections/contact/ContactSplit";
+import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
 
 export default function QuotePage() {
@@ -39,7 +40,7 @@ export default function QuotePage() {
           <ContactSplit
             tag="Schedule Now"
             title="Get Your Free Roofing Quote"
-            description="Fill out the form below to receive a detailed, no-obligation estimate for your roofing project. Our experts will be in touch shortly to discuss your needs and schedule an inspection."
+            description="Fill out the form below to receive a detailed, no-obligation estimate for your roofing project. Our experts will be in touch shortly to discuss your needs and schedule an inspection. You can also reach us directly at 250-617-1940."
             background={{ variant: "plain" }}
             useInvertedBackground={false}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780390644896-dmh5enaz.png?_wi=2"
@@ -49,6 +50,18 @@ export default function QuotePage() {
             buttonText="Submit My Request"
             termsText="By submitting, you agree to our privacy policy and to be contacted regarding your request."
             onSubmit={(email) => alert(`Quote request submitted for ${email}`)}
+          />
+        </div>
+
+        <div id="call-us-section" data-section="call-us-section">
+          <ContactText
+            text="Prefer to talk? Call us directly for immediate assistance."
+            buttons={[
+              { text: "Call Now", href: "tel:2506171940" }
+            ]}
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
+            animationType="entrance-slide"
           />
         </div>
 
@@ -74,7 +87,7 @@ export default function QuotePage() {
               },
               {
                 title: "Contact",                items: [
-                  { label: "(555) 123-4567", href: "tel:5551234567" },
+                  { label: "250-617-1940", href: "tel:2506171940" },
                   { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
                   { label: "City, State" }
                 ]
