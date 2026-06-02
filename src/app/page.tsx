@@ -31,7 +31,7 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="AirPro HVAC"
+            brandName="RoofShield Pro"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
@@ -45,21 +45,21 @@ export default function HvacPage() {
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Your Comfort Is Our Priority"
-            description="Professional heating, ventilation, and air conditioning services for homes and businesses. From installations to emergency repairs, we keep your climate perfect year-round."
+            title="Protect Your Home with a Superior Roof"
+            description="Expert roofing solutions for residential and commercial properties. From durable installations to reliable repairs, we ensure long-lasting protection and peace of mind."
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg", alt: "Client" },
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg", alt: "Client" }
             ]}
-            avatarText="Trusted by 500+ clients"
+            avatarText="Trusted by 500+ homeowners & businesses"
             buttons={[
               { text: "Schedule Service", href: "#contact" },
               { text: "Our Services", href: "#services" }
             ]}
             buttonAnimation="slide-up"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-1.jpg"
-            imageAlt="HVAC technician performing system maintenance"
+            imageAlt="Professional roofer inspecting a residential roof"
             showDimOverlay={true}
           />
         </div>
@@ -78,9 +78,9 @@ export default function HvacPage() {
               }
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/tmp/remake-that-before-and-after-image-witho-1780371325762-c29beb04.png"
-            imageAlt="Commercial HVAC units on rooftop"
+            imageAlt="Experienced roofing crew working on a new roof installation"
             mediaBadge={{
-              text: "Active Now",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",              avatarAlt: "Technician"
+              text: "On-site Daily",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",              avatarAlt: "Roofer"
             }}
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
@@ -89,28 +89,28 @@ export default function HvacPage() {
         </div>
         <div id="services" data-section="services">
           <FeatureCardOne
-            title="Our Services"
-            description="From installations to emergency repairs, we have your comfort covered."
+            title="Our Comprehensive Roofing Services"
+            description="From minor repairs to complete roof overhauls, we provide lasting solutions."
             buttons={[{ text: "Get a Quote", href: "#contact" }]}
             buttonAnimation="slide-up"
             features={[
               {
-                title: "Roof Repairs",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "AC installation service"
+                title: "Roof Repairs",                description: "Addressing leaks, storm damage, and wear to extend your roof's life.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-884ohiiv.png",                imageAlt: "Roof repair service"
               },
               {
-                title: "Roof Replacements ",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-054s7lu2.png",                imageAlt: "Heating system service"
+                title: "Roof Replacements ",                description: "Full roof tear-offs and installations for enhanced protection and curb appeal.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368970943-054s7lu2.png",                imageAlt: "New roof replacement service"
               },
               {
-                title: "Asphalt Shingle Roofing",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "HVAC maintenance"
+                title: "Asphalt Shingle Roofing",                description: "High-quality asphalt shingle installations for durability and aesthetic versatility.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-g7y4zzcd.png",                imageAlt: "Asphalt shingle roofing installation"
               },
               {
-                title: "Leak Detection & Repair",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-ekekc7j6.png",                imageAlt: "Emergency HVAC repair"
+                title: "Leak Detection & Repair",                description: "Advanced techniques to pinpoint and seal leaks, preventing interior damage.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-ekekc7j6.png",                imageAlt: "Roof leak detection and repair"
               },
               {
-                title: "Ventilation & Roofing Accessories Installation",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-35f1otob.png",                imageAlt: "Duct cleaning service"
+                title: "Ventilation & Roofing Accessories Installation",                description: "Optimizing roof ventilation and installing crucial accessories for system longevity.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368864068-35f1otob.png",                imageAlt: "Roof ventilation system installation"
               },
               {
-                title: "Residential Roofing",                description: "",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368744961-40lhnvum.png",                imageAlt: "HVAC system inspection"
+                title: "Residential Roofing",                description: "Comprehensive roofing solutions tailored specifically for residential properties.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EYnezFJ1ZeM41Reh2j46V6O7DH/uploaded-1780368744961-40lhnvum.png",                imageAlt: "Residential roofing project"
               }
             ]}
             gridVariant="uniform-all-items-equal"
@@ -123,20 +123,20 @@ export default function HvacPage() {
           />
         </div>
         <FeatureBorderGlow
-          title="Why Choose AirPro"
-          description="What sets us apart from the rest"
+          title="Why Choose RoofShield Pro"
+          description="The foundations of our trusted roofing service."
           features={[
             {
               icon: ShieldCheck,
-              title: "Reliability & Trust",              description: "Looking for a dependable HVAC company? We arrive on time and do the job right."
+              title: "Reliability & Trust",              description: "Dependable roofing solutions delivered on time, every time."
             },
             {
               icon: Wrench,
-              title: "Quality Workmanship",              description: "Our skilled technicians excel in various HVAC repairs, using only top-quality materials."
+              title: "Quality Workmanship",              description: "Skilled roofers using premium materials for superior, lasting results."
             },
             {
               icon: DollarSign,
-              title: "Fair & Transparent Pricing",              description: "No surprises here! We offer clear quotes and fair pricing for quality work."
+              title: "Fair & Transparent Pricing",              description: "Clear, honest quotes for all roofing projects, no hidden costs."
             }
           ]}
           textboxLayout="default"
@@ -145,20 +145,20 @@ export default function HvacPage() {
         />
 
         <FeatureCardEight
-          title="How It Works"
-          description="Our simple process from first call to finished job"
+          title="Our Roofing Process: Simple & Seamless"
+          description="From your initial inquiry to a perfectly finished roof."
           features={[
             {
-              title: "Schedule a Call",              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=2",              imageAlt: "Scheduling a service call"
+              title: "Schedule a Consultation",              description: "Contact us to discuss your roofing needs. We'll find a convenient time for a thorough assessment.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=2",              imageAlt: "Scheduling a roof consultation"
             },
             {
-              title: "On-Site Diagnosis",              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Technician diagnosing HVAC system"
+              title: "Detailed Roof Inspection",              description: "Our expert team conducts a comprehensive inspection, identifying issues and providing a transparent quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Roofer performing a detailed roof inspection"
             },
             {
-              title: "Expert Repair or Install",              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=2",              imageAlt: "HVAC repair in progress"
+              title: "Expert Installation & Repair",              description: "We perform all work efficiently, using top-grade materials and proven techniques for a durable roof.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=2",              imageAlt: "Roof repair in progress"
             },
             {
-              title: "Quality Guarantee",              description: "We test everything before we leave and back all work with our satisfaction guarantee.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=2",              imageAlt: "Final quality check"
+              title: "Satisfaction & Warranty",              description: "We ensure your complete satisfaction and back our work with a robust warranty for your peace of mind.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=2",              imageAlt: "New roof with quality guarantee"
             }
           ]}
           textboxLayout="default"
@@ -166,19 +166,19 @@ export default function HvacPage() {
         />
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
-            title="What Our Clients Say"
-            description="Hear from homeowners and businesses who trust AirPro HVAC."
+            title="What Our Clients Say About Their New Roofs"
+            description="Hear from homeowners who've experienced our commitment to quality roofing."
             testimonials={[
               {
-                id: "1",                name: "James R.",                handle: "Homeowner, Austin TX",                testimonial: "AirPro replaced our entire AC system in one day. The crew was professional, clean, and the new unit runs quieter than anything we've had before. Highly recommend.",                rating: 5,
+                id: "1",                name: "James R.",                handle: "Homeowner, Austin TX",                testimonial: "RoofShield Pro replaced our old, worn-out roof with incredible efficiency. The team was professional, the site was left spotless, and our new asphalt shingle roof looks fantastic. Highly recommend their roofing expertise!",                rating: 5,
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg",                imageAlt: "James R."
               },
               {
-                id: "2",                name: "Linda M.",                handle: "Business Owner, Dallas TX",                testimonial: "We use AirPro for all three of our office locations. Their maintenance plans have saved us thousands in emergency repairs. Always on time, always honest.",                rating: 5,
+                id: "2",                name: "Linda M.",                handle: "Business Owner, Dallas TX",                testimonial: "After a major storm, RoofShield Pro handled our emergency roof repair quickly and professionally. Their prompt response saved us from further damage, and the quality of their work was outstanding. True lifesavers!",                rating: 5,
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg",                imageAlt: "Linda M."
               },
               {
-                id: "3",                name: "Carlos D.",                handle: "Homeowner, Houston TX",                testimonial: "Our furnace broke down on the coldest night of the year. AirPro had someone at our door within two hours. Fixed it on the spot. Can't thank them enough.",                rating: 5,
+                id: "3",                name: "Carlos D.",                handle: "Homeowner, Houston TX",                testimonial: "We needed a complete roof replacement, and RoofShield Pro delivered. Their communication was excellent throughout the project, and the craftsmanship is superb. Our home feels safer and looks better than ever.",                rating: 5,
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg",                imageAlt: "Carlos D."
               }
             ]}
@@ -190,7 +190,7 @@ export default function HvacPage() {
         </div>
         <div id="faq" data-section="faq">
           <FaqSplitText
-            sideTitle="Frequently Asked Questions"
+            sideTitle="Common Roofing Questions"
             buttons={[{ text: "Contact Us", href: "#contact" }]}
             buttonAnimation="slide-up"
             faqsAnimation="slide-up"
@@ -231,7 +231,7 @@ export default function HvacPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseCard
-            logoText="AirPro HVAC"
+            logoText="RoofShield Pro"
             columns={[
               {
                 title: "Services",                items: [
@@ -252,12 +252,12 @@ export default function HvacPage() {
               {
                 title: "Contact",                items: [
                   { label: "(555) 123-4567", href: "tel:5551234567" },
-                  { label: "info@airprohvac.com", href: "mailto:info@airprohvac.com" },
+                  { label: "info@roofshieldpro.com", href: "mailto:info@roofshieldpro.com" },
                   { label: "City, State" }
                 ]
               }
             ]}
-            copyrightText="© 2026 | AirPro HVAC"
+            copyrightText="© 2026 | RoofShield Pro"
           />
         </div>
       </ReactLenis>
