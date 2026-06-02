@@ -45,7 +45,8 @@ export default function QuotePage() {
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Get a Quote", id: "/quote" }
+              { name: "Get a Quote", id: "/quote" },
+              { name: "Privacy Policy", id: "/privacy-policy" }
             ]}
             button={{ text: "Get a Quote", href: "/quote" }}
             animateOnLoad={false}
@@ -154,7 +155,8 @@ export default function QuotePage() {
                   { label: "About Us", href: "/#about" },
                   { label: "Testimonials", href: "/#testimonials" },
                   { label: "FAQ", href: "/#faq" },
-                  { label: "Get a Quote", href: "/quote" }
+                  { label: "Get a Quote", href: "/quote" },
+                  { label: "Privacy Policy", href: "/privacy-policy" }
                 ]
               },
               {
