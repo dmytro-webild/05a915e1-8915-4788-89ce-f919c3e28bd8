@@ -51,6 +51,7 @@ export default function QuotePage() {
             ]}
             button={{ text: "Get a Quote", href: "/quote" }}
             animateOnLoad={false}
+            className="hidden md:block"
           />
         </div>
 
