@@ -9,6 +9,8 @@ import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
 import Input from "@/components/form/Input";
 import ButtonBounceEffect from "@/components/button/ButtonBounceEffect/ButtonBounceEffect";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export default function QuotePage() {
   const [name, setName] = useState("");
@@ -41,6 +43,15 @@ export default function QuotePage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
+          {/* Mobile-only header with back arrow */}
+          <div className="md:hidden flex items-center justify-between px-4 py-3 bg-background border-b border-foreground/10 sticky top-0 z-50">
+            <Link href="/" className="flex items-center text-foreground hover:text-primary-cta">
+              <ArrowLeft className="h-5 w-5 mr-2" />
+              <span className="text-base font-semibold">Back to Home</span>
+            </Link>
+            <span className="text-base font-semibold">Free Quote</span>
+          </div>
+
           <NavbarLayoutFloatingInline
             brandName="To The Peak Roofing INC."
             navItems={[
