@@ -6,7 +6,6 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
-import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactText from '@/components/sections/contact/ContactText';
@@ -132,7 +131,7 @@ export default function HvacPage() {
         </div>
 
         <div id="our-roofing-process" data-section="our-roofing-process">
-          <FeatureCardEight
+          <FeatureCardOne
             title="Our Roofing Process: Simple & Seamless"
             description="From your initial inquiry to a perfectly finished roof."
             features={[
@@ -151,6 +150,10 @@ export default function HvacPage() {
             ]}
             textboxLayout="default"
             useInvertedBackground={false}
+            gridVariant="uniform-all-items-equal"
+            carouselMode="auto"
+            carouselThreshold={3} 
+            animationType="scale-rotate"
           />
         </div>
         <div id="testimonials" data-section="testimonials">
