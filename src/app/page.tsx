@@ -150,7 +150,7 @@ export default function HvacPage() {
             ]}
             textboxLayout="default"
             useInvertedBackground={false}
-            gridVariant="four-items-2x2-equal-grid"
+            gridVariant="uniform-all-items-equal"
             carouselMode="auto"
             carouselThreshold={3} 
             animationType="scale-rotate"
