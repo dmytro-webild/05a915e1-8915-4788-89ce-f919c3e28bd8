@@ -45,7 +45,7 @@ export default function HvacPage() {
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Protect Your Home with a Superior Roof"
+            title="Protect Your Home with a Roof that will last"
             description="Expert roofing solutions for residential and commercial properties. From durable installations to reliable repairs, we ensure long-lasting protection and peace of mind."
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
